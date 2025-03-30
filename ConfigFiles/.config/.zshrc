@@ -282,12 +282,22 @@ alias l='lsd --group-dirs=first'
 alias lla='lsd -lha --group-dirs=first'
 alias ls='lsd --group-dirs=first'
 
+# Custom Alias Delete Files
+alias scrub='scrub -p dod'
+alias shred='shred -zun 10 -v'
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Finalize Powerlevel10k instant prompt. Should stay at the bottom of ~/.zshrc.
 (( ! ${+functions[p10k-instant-prompt-finalize]} )) || p10k-instant-prompt-finalize
 
-source ~/Repos/powerlevel10k/powerlevel10k.zsh-theme
+# Enable Powerlevel10k for better terminal navigation
+source ~/.config/powerlevel10k/powerlevel10k.zsh-theme
 
+# Enable Fzf to intelligent findings
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+##
+## END OF FILE
+##
