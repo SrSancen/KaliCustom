@@ -20,5 +20,5 @@ bspc rule -a Screenkey manage=off
 /usr/bin/feh --bg-fill /ruta/de/tu/wallpaper &
 vmware-user-suid-wrapper &
 ~/.config/polybar/./launch.sh &
-/usr/local/bin/picom &
+picom &
 wmname LG3D &

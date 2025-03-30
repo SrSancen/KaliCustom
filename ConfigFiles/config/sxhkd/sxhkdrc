@@ -117,13 +117,13 @@ super + ctrl + shift + space
 #       bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
 
 # move a floating window
-#super + shift + {Left,Down,Up,Right}
+super + shift + {Left,Down,Up,Right}
         bspc node -v {-20 0,0 20,0 -20,20 0}
-.
+
 # Custom Resize
 alt + super + {Left,Down,Up,Right}
         ~/.config/bspwm/scripts/bspwm_resize {west,south,north,east}
-.
+
 # Firefox
 super + shift + f
         /usr/bin/firefox

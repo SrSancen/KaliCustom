@@ -258,9 +258,7 @@ fi
 
 # enable escape key sudo plugin
 if [ -f /usr/share/zsh-sudo-plugin/sudo.plugin.zsh ]; then
-    . /usr/share/zsh-sudo-plugin/sudo.plugin.zsh
-    # change suggestion color
-    ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#444'
+    source /usr/share/zsh-sudo-plugin/sudo.plugin.zsh
 fi
 
 # enable command-not-found if installed
