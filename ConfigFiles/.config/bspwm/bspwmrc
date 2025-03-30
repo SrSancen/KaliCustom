@@ -17,7 +17,7 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
-/usr/bin/feh --bg-fill /usr/share/backgrounds/Predwall3_1920x1129.jpg &
+/usr/bin/feh --bg-fill /ruta/de/tu/wallpaper &
 vmware-user-suid-wrapper &
 ~/.config/polybar/./launch.sh &
 /usr/local/bin/picom &
